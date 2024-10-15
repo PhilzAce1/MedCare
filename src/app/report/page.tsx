@@ -210,7 +210,7 @@ export default function ReportPage() {
         router.push("/login");
       }
     };
-    checkUser();
+    // checkUser();
   }, [router]);
 
   const [tab, setTab] = useState<any>(1);
